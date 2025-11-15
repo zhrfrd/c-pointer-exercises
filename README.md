@@ -4,9 +4,9 @@
 
 ### Beginner – Basic pointer usage
 
-- Declare a pointer and assign it the address of a variable.
-- Print the value of a variable using a pointer.
-- Change the value of a variable using a pointer.
+- [Declare a pointer and assign it the address of a variable](1-beginner/1-basic-pointer-declaration.c).
+- [Print the value of a variable using a pointer](1-beginner/2-pointer-value-print.c).
+- [Change the value of a variable using a pointer](1-beginner/3-pointer-value-change.c).
 - Print the address of a variable.
 - Use a pointer to print the size of a variable (with sizeof).
 - Swap two numbers using pointers.
