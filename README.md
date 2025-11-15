@@ -1,9 +1,13 @@
 # C pointer exercises
 
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+A complete collection of practical exercises designed to understand pointers in C from the absolute basics to dynamic memory, pointers to pointers, and data structures.
+This repository is structured in increasing difficulty, with each folder containing small, focused programs that can be compiled and run individually.
+
 ## List of exercises
 
 ### Beginner – Basic pointer usage
-
 - [Declare a pointer and assign it the address of a variable](1-beginner/1-basic-pointer-declaration.c).
 - [Print the value of a variable using a pointer](1-beginner/2-pointer-value-print.c).
 - [Change the value of a variable using a pointer](1-beginner/3-pointer-value-change.c).
@@ -13,7 +17,6 @@
 - Find the sum of two numbers using pointers.
 
 ### Intermediate – Pointer arithmetic
-
 - Use pointer arithmetic to traverse an array.
 - Find the maximum/minimum element of an array using pointers.
 - Reverse an array using pointers.
@@ -23,7 +26,6 @@
 - Count the number of occurrences of a number in an array using pointers.
 
 ### Advanced – Pointers and functions
-
 - Pass a pointer to a function and modify a variable.
 - Implement a function to swap two numbers using pointers.
 - Pass an array to a function using a pointer and print its elements.
@@ -34,7 +36,6 @@
 - Reverse a string using pointers.
 
 ### Expert – Pointers to pointers and dynamic memory
-
 - Use a pointer to a pointer.
 - Allocate memory for an array dynamically using malloc.
 - Resize a dynamically allocated array using realloc.
@@ -46,7 +47,7 @@
 - Implement a stack using pointers and dynamic memory.
 - Implement a queue using pointers and dynamic memory.
 
-## Started template for each file
+## Template for each file
 ```
 /*
  * Exercise [NUMBER]: [EXERCISE NAME]
@@ -65,11 +66,23 @@ int main(void) {
 }
 ```
 
-## Repository structure
+## How to compile each file
+Each exercise is a standalone C program.
+You can compile them using GCC from the terminal:
 
+### Compile a file
+```
+gcc -o output_file file_name.c
+```
+
+### Run the compiled program
+```
+./output_file
+```
+
+## Repository structure
 ```
 c-pointer-exercises/
-├── README.md
 ├── 1-beginner/
 │   ├── 01_basic-pointer-declaration.c
 │   ├── 02_pointer_value_print.c
@@ -77,7 +90,7 @@ c-pointer-exercises/
 │   ├── 04_pointer_address_print.c
 │   ├── 05_pointer_sizeof.c
 │   ├── 06_swap_two_numbers.c
-│   ├── 07_sum_two_numbers.c
+│   └── 07_sum_two_numbers.c
 ├── 2-intermediate/
 │   ├── 08_array_traversal_pointer.c
 │   ├── 09_max_min_array_pointer.c
@@ -85,7 +98,7 @@ c-pointer-exercises/
 │   ├── 11_sum_array_pointer.c
 │   ├── 12_copy_array_pointer.c
 │   ├── 13_compare_arrays_pointer.c
-│   ├── 14_count_occurrences_pointer.c
+│   └── 14_count_occurrences_pointer.c
 ├── 3-advanced/
 │   ├── 15_function_modify_variable.c
 │   ├── 16_swap_numbers_function_pointer.c
@@ -94,7 +107,7 @@ c-pointer-exercises/
 │   ├── 19_string_copy_pointer.c
 │   ├── 20_string_concat_pointer.c
 │   ├── 21_string_compare_pointer.c
-│   ├── 22_string_reverse_pointer.c
+│   └── 22_string_reverse_pointer.c
 ├── 4-expert/
 │   ├── 23_pointer_to_pointer.c
 │   ├── 24_dynamic_array_malloc.c
@@ -105,6 +118,7 @@ c-pointer-exercises/
 │   ├── 29_linked_list_insert.c
 │   ├── 30_linked_list_delete.c
 │   ├── 31_stack_pointer_dynamic.c
-│   ├── 32_queue_pointer_dynamic.c
+│   └── 32_queue_pointer_dynamic.c
+├── README.md
 └── LICENSE
 ```
