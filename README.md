@@ -11,9 +11,9 @@ This repository is structured in increasing difficulty, with each folder contain
 - [Declare a pointer and assign it the address of a variable](1-beginner/1-basic-pointer-declaration.c).
 - [Print the value of a variable using a pointer](1-beginner/2-pointer-value-print.c).
 - [Change the value of a variable using a pointer](1-beginner/3-pointer-value-change.c).
-- Print the address of a variable.
-- Use a pointer to print the size of a variable (with sizeof).
-- Swap two numbers using pointers.
+- [Print the address of a variable](1-beginner/4_pointer_address_print.c).
+- [Use a pointer to print the size of a variable (with sizeof)](1-beginner/5_pointer_sizeof.c).
+- [Swap two numbers using pointers](1-beginner/6_swap_two_numbers.c).
 - Find the sum of two numbers using pointers.
 
 ### Intermediate – Pointer arithmetic
@@ -84,7 +84,7 @@ gcc -o output_file file_name.c
 ```
 c-pointer-exercises/
 ├── 1-beginner/
-│   ├── 01_basic-pointer-declaration.c
+│   ├── 01_basic_pointer_declaration.c
 │   ├── 02_pointer_value_print.c
 │   ├── 03_pointer_value_change.c
 │   ├── 04_pointer_address_print.c
