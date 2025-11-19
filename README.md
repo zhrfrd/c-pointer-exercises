@@ -14,7 +14,7 @@ This repository is structured in increasing difficulty, with each folder contain
 - [Print the address of a variable](1-beginner/4_pointer_address_print.c).
 - [Use a pointer to print the size of a variable (with sizeof)](1-beginner/5_pointer_sizeof.c).
 - [Swap two numbers using pointers](1-beginner/6_swap_two_numbers.c).
-- Find the sum of two numbers using pointers.
+- [Find the sum of two numbers using pointers](1-beginner/7_sum_two_numbers.c).
 
 ### Intermediate – Pointer arithmetic
 - Use pointer arithmetic to traverse an array.
@@ -84,16 +84,16 @@ gcc -o output_file file_name.c
 ```
 c-pointer-exercises/
 ├── 1-beginner/
-│   ├── 01_basic_pointer_declaration.c
-│   ├── 02_pointer_value_print.c
-│   ├── 03_pointer_value_change.c
-│   ├── 04_pointer_address_print.c
-│   ├── 05_pointer_sizeof.c
-│   ├── 06_swap_two_numbers.c
-│   └── 07_sum_two_numbers.c
+│   ├── 1_basic_pointer_declaration.c
+│   ├── 2_pointer_value_print.c
+│   ├── 3_pointer_value_change.c
+│   ├── 4_pointer_address_print.c
+│   ├── 5_pointer_sizeof.c
+│   ├── 6_swap_two_numbers.c
+│   └── 7_sum_two_numbers.c
 ├── 2-intermediate/
-│   ├── 08_array_traversal_pointer.c
-│   ├── 09_max_min_array_pointer.c
+│   ├── 8_array_traversal_pointer.c
+│   ├── 9_max_min_array_pointer.c
 │   ├── 10_reverse_array_pointer.c
 │   ├── 11_sum_array_pointer.c
 │   ├── 12_copy_array_pointer.c
