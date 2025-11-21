@@ -8,9 +8,9 @@ This repository is structured in increasing difficulty, with each folder contain
 ## List of exercises
 
 ### Beginner – Basic pointer usage
-- [Declare a pointer and assign it the address of a variable](1-beginner/1-basic-pointer-declaration.c).
-- [Print the value of a variable using a pointer](1-beginner/2-pointer-value-print.c).
-- [Change the value of a variable using a pointer](1-beginner/3-pointer-value-change.c).
+- [Declare a pointer and assign it the address of a variable](1-beginner/1_basic_pointer_declaration.c).
+- [Print the value of a variable using a pointer](1-beginner/2_pointer_value_print.c).
+- [Change the value of a variable using a pointer](1-beginner/3_pointer_value_change.c).
 - [Print the address of a variable](1-beginner/4_pointer_address_print.c).
 - [Use a pointer to print the size of a variable (with sizeof)](1-beginner/5_pointer_sizeof.c).
 - [Swap two numbers using pointers](1-beginner/6_swap_two_numbers.c).
