@@ -2,7 +2,7 @@
 
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-A complete collection of practical exercises designed to understand pointers in C from the absolute basics to dynamic memory, pointers to pointers, and data structures.
+A collection of exercises to understand pointers in C from the basics to dynamic memory, pointers to pointers, and data structures.
 This repository is structured in increasing difficulty, with each folder containing small, focused programs that can be compiled and run individually.
 
 ## List of exercises
