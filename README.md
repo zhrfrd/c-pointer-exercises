@@ -17,7 +17,7 @@ This repository is structured in increasing difficulty, with each folder contain
 - [Find the sum of two numbers using pointers](1-beginner/7_sum_two_numbers.c).
 
 ### Intermediate – Pointer arithmetic
-- Use pointer arithmetic to traverse an array.
+- [Use pointer arithmetic to traverse an array](2-intermediate/8_array_traversal_pointer.c).
 - Find the maximum/minimum element of an array using pointers.
 - Reverse an array using pointers.
 - Sum all elements of an array using pointers.
