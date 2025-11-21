@@ -18,7 +18,7 @@ This repository is structured in increasing difficulty, with each folder contain
 
 ### Intermediate – Pointer arithmetic
 - [Use pointer arithmetic to traverse an array](2-intermediate/8_array_traversal_pointer.c).
-- Find the maximum/minimum element of an array using pointers.
+- [Find the maximum/minimum element of an array using pointers](2-intermediate/9_max_min_array_pointer.c).
 - Reverse an array using pointers.
 - Sum all elements of an array using pointers.
 - Copy an array using pointers.
